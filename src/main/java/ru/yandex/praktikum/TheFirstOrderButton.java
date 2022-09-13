@@ -12,7 +12,6 @@ public class TheFirstOrderButton extends BaseClass {
     }
 
     public void clickOnCookieButton() {
-        driver.manage().deleteAllCookies();
         driver.findElement(cookieButton).click();
     }
 
